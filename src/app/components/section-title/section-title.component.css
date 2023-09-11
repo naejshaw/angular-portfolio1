@@ -1,0 +1,17 @@
+.container__section-title{
+  margin-bottom: 40px;
+}
+
+.container__section-title > h2{
+  display: flex;
+  justify-content: center;
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #ededed;
+}
+
+.container__section-title > h2 > span{
+  color: #00abf0;
+  margin-left: 10px;
+}

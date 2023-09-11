@@ -1,0 +1,31 @@
+<!-- contact section design -->
+<section class="contact" id="contact">
+  <app-section-title
+  sectionTitleH2 = "Contact"
+  sectionTitleSpan = "Me"
+  ></app-section-title>
+  <form action="#">
+      <div class="input-box">
+          <app-input-field type="text" placeholder="Full Name"></app-input-field>
+          <app-input-field type="text" placeholder="Email Adress"></app-input-field>
+
+          <span class="animate scroll" style="--i:3;"></span>
+        </div>
+
+        <div class="input-box">
+          <app-input-field type="number" placeholder="Mobile Number"></app-input-field>
+          <app-input-field type="text" placeholder="Email Subject"></app-input-field>
+          
+          <span class="animate scroll" style="--i:5;"></span>
+      </div>
+
+      <div class="textarea-field">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+          <span class="focus"></span>
+
+          <span class="animate scroll" style="--i:7;"></span>
+      </div>
+
+      <app-button btnContent="Submit"></app-button>
+  </form>
+</section>

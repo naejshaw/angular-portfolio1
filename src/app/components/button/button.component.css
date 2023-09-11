@@ -1,0 +1,32 @@
+.btn{
+  box-sizing: border-box;
+  position: relative;
+  margin-right: 4.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 5rem;
+  background: #00ABF0;
+  border: .2rem solid #00ABF0;
+  border-radius: .8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  color: #081B29;
+  z-index: 1;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.btn:hover{
+  background: transparent;
+}
+
+.btn > a > p{
+  color: #081B29;
+}
+
+.btn:hover > a > p{
+  color: #00ABF0;
+}

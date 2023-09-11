@@ -1,0 +1,25 @@
+.input-field{
+  position: relative;
+  width: 100%;
+  margin: .8rem 0;
+}
+
+.input-field input{
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  background: transparent;
+  border-radius: .6rem;
+  border: .2rem solid var(--main-color);
+}
+
+.input-field input::placeholder{
+  color: var(--text-color);
+}
+
+.input-field input:focus~.focus,
+.input-field input:valid~.focus{
+  width: 100%;
+}
